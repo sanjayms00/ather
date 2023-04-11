@@ -805,31 +805,88 @@ a
     padding-top: 70px;
 }
 
-
-
-
-
 /* << battery >> */
 
-/* << footer >> */
 
+/* << disclaimer >> */
+
+.disclaimer
+{
+    color: var(--border);
+    text-align: justify;
+    padding: 50px 130px;
+}
+.disclaimer-foot
+{
+    height: 60px;
+    background-color: rgb(254, 236, 237);;
+}
+.disclaimer-foot-padd
+{
+    font-size: 19px;
+    padding: 15px 130px;
+}
+.disclaimer-foot img
+{
+    height: 15px;
+}
+.dis-one
+{
+    float: left;
+    width: 20%;
+}
+.dis-two
+{
+    float: left;
+    width: 60%;
+    line-height: 28px;
+}
+.dis-three
+{
+    font-size: 15px;
+    float: right;
+    width: 20%;
+}
+.dis-three a 
+{
+    border-bottom: 1px solid black;
+    color: black;
+    float: right;
+}
+.dis-three img
+{
+    padding-top: 5px;
+}
+/* << disclaimer >> */
+
+
+/* << footer >> */
+.footer
+{
+    padding: 100px 0;
+    background-color: white;
+}
 .footer-1
 {
     padding: 15px 135px;
 }
 .footer-1 h5
 {
+    font-weight: 500;
     padding-bottom: 20px;
 }
 .footer-1 li
 {
     padding: 5px 0;
+    color:  var(--border);
 }
 .footer-icons
 {
     width: 20%;
+    color:  var(--border);
     margin: 0 auto;
 }
+
 .footer-icons li
 {
     display: inline-block;
@@ -847,8 +904,22 @@ a
 }
 .footer-last
 {
+    
     text-align: center;
-    padding: 15px 0;
+    padding: 20px 0;
+}
+.footer-last span
+{
+    color: var(--border);
+}
+.footer-last p
+{
+    font-size: 12px;
+    padding: 5px 0;
+}
+.footer a:hover li 
+{
+    color: black;
 }
 /* << footer >> */
 
