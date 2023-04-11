@@ -777,6 +777,12 @@ a
 {
     background-image: none;
 }
+
+.range
+{
+    height: 550px;
+    padding: 0 110px;
+}
 .range-title
 {
     height: 200px;
@@ -804,7 +810,19 @@ a
 {
     padding-top: 70px;
 }
-
+.range-left-img
+{
+    float: left;
+    width: 60%;
+}
+.range-right-des
+{
+    background-color: white;
+    height: 358px;
+    width: 40%;
+    float: right;
+    padding: 50px;
+}
 /* << battery >> */
 
 
